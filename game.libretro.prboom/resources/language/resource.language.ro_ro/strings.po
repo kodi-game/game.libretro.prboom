@@ -16,6 +16,22 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;\n"
 
+msgctxt "Addon Summary"
+msgid "Doom (PrBoom) v2.5.0"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "PrBoom is a version of the classic 3D shoot&#39;em&#39;up game Doom, originally written by id Software.
+
+To play PrBoom, you need one of the main Doom data files (called the IWAD) from id Software - doom.wad, doom2.wad, tnt.wad or plutonia.wad - or the shareware doom1.wad.
+
+If you don&#39;t own any of the Doom games, get the shareware doom1.wad from doom19s.zip on Doomworld&#39;s shareware download page. http://www.doomworld.com/files/shareware.shtml
+
+Additionally it needs the prboom.wad from https://github.com/libretro/libretro-prboom/raw/master/prboom.wad copied to the game directory.
+
+Supported files: .wad, .iwad, .pwad, .lmp"
+msgstr ""
+
 msgctxt "#30000"
 msgid "Settings"
 msgstr ""
