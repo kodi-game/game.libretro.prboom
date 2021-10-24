@@ -5,7 +5,7 @@
 
 ### Description
 
-PrBoom, short for \&quot;Professor Boom\&quot;, is a version of the classic 3D shoot&apos;em&apos;up game Doom, originally written by id Software.
+PrBoom, short for "Professor Boom", is a version of the classic 3D shoot'em'up game Doom, originally written by id Software.
 
 See the documentation for a list of required files.
 
