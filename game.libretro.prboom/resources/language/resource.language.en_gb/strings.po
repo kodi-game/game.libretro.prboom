@@ -21,7 +21,7 @@ msgid "Doom (PrBoom) v2.5.0"
 msgstr ""
 
 msgctxt "Addon Description"
-msgid "PrBoom, short for \&quot;Professor Boom\&quot;, is a version of the classic 3D shoot&apos;em&apos;up game Doom, originally written by id Software.[CR][CR]See the documentation for a list of required files."
+msgid "PrBoom, short for \\"Professor Boom\\", is a version of the classic 3D shoot\'em\'up game Doom, originally written by id Software.[CR][CR]See the documentation for a list of required files."
 msgstr ""
 
 msgctxt "#30000"
