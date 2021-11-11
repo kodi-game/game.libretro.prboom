@@ -29,15 +29,15 @@ msgid "Settings"
 msgstr ""
 
 msgctxt "#30001"
-msgid "Internal resolution (restart)"
+msgid "Internal Resolution (Restart)"
 msgstr ""
 
 msgctxt "#30002"
-msgid "Mouse active when using Gamepad"
+msgid "Mouse Active When Using Gamepad"
 msgstr ""
 
 msgctxt "#30003"
-msgid "Look on parent folders for IWADs"
+msgid "Look on Parent Folders for IWADs"
 msgstr ""
 
 msgctxt "#30004"
@@ -45,5 +45,5 @@ msgid "Rumble Effects"
 msgstr ""
 
 msgctxt "#30005"
-msgid "Analog Deadzone (percent)"
+msgid "Analog Deadzone (Percent)"
 msgstr ""
