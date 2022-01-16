@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.prboom"
 		name="Doom (PrBoom)"
-		version="2.5.0.30"
+		version="2.5.0.31"
 		provider-name="Florian Schulze">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
@@ -28,7 +28,7 @@
 			<screenshot>resources/screenshot-03.jpg</screenshot>
 		</assets>
 		<summary lang="en_GB">Doom (PrBoom) v2.5.0</summary>
-		<description lang="da_DK">PrBoom, forkortelse for &quot;Professor Boom&quot;, er en version af det klassiske 3D shoot'em'up-spil Doom, oprindeligt skrevet af id Software.[CR][CR]Se dokumentationen for en liste over nødvendige filer.</description>
-		<description lang="en_GB">PrBoom, short for &quot;Professor Boom&quot;, is a version of the classic 3D shoot'em'up game Doom, originally written by id Software.[CR][CR]See the documentation for a list of required files.</description>
+		<description lang="da_DK">PrBoom, forkortelse for &#34;Professor Boom&#34;, er en version af det klassiske 3D shoot&#39;em&#39;up-spil Doom, oprindeligt skrevet af id Software.[CR][CR]Se dokumentationen for en liste over nødvendige filer.</description>
+		<description lang="en_GB">PrBoom, short for &#34;Professor Boom&#34;, is a version of the classic 3D shoot&#39;em&#39;up game Doom, originally written by id Software.[CR][CR]See the documentation for a list of required files.</description>
 	</extension>
 </addon>
