@@ -30,8 +30,8 @@ msgid "Settings"
 msgstr "Indstillinger"
 
 msgctxt "#30001"
-msgid "Internal Resolution (Restart)"
-msgstr "Intern opløsning (genstart)"
+msgid "Internal resolution (Restart Required)"
+msgstr ""
 
 msgctxt "#30002"
 msgid "Mouse Active When Using Gamepad"
@@ -48,6 +48,10 @@ msgstr "Rumble-effekter"
 msgctxt "#30005"
 msgid "Analog Deadzone (Percent)"
 msgstr "Analog dødzone (procent)"
+
+#~ msgctxt "#30001"
+#~ msgid "Internal Resolution (Restart)"
+#~ msgstr "Intern opløsning (genstart)"
 
 #~ msgctxt "#30001"
 #~ msgid "Internal resolution (restart)"

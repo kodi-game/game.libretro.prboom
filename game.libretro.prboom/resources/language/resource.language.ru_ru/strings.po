@@ -30,7 +30,7 @@ msgid "Settings"
 msgstr "Настройки"
 
 msgctxt "#30001"
-msgid "Internal Resolution (Restart)"
+msgid "Internal resolution (Restart Required)"
 msgstr ""
 
 msgctxt "#30002"
