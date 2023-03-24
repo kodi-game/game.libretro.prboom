@@ -17,7 +17,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgctxt "Addon Summary"
-msgid "Doom (PrBoom) v2.5.0"
+msgid "Doom (PrBoom)"
 msgstr ""
 
 msgctxt "Addon Description"
