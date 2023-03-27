@@ -28,6 +28,7 @@
 			<screenshot>resources/screenshot-03.jpg</screenshot>
 		</assets>
 		<summary lang="en_GB">Doom (PrBoom)</summary>
+		<summary lang="es_ES">Doom (PrBoom)</summary>
 		<description lang="da_DK">PrBoom, forkortelse for &quot;Professor Boom&quot;, er en version af det klassiske 3D shoot&apos;em&apos;up-spil Doom, oprindeligt skrevet af id Software.[CR][CR]Se dokumentationen for en liste over nødvendige filer.</description>
 		<description lang="de_DE">PrBoom, Kurzform für „Professor Boom“, ist eine Version des klassischen 3D-Shoot&apos;em&apos;up-Spiels Doom, das ursprünglich von id Software entwickelt wurde[CR][CR]In der Dokumentation findet sich eine Liste der benötigten Dateien.</description>
 		<description lang="en_GB">PrBoom, short for &quot;Professor Boom&quot;, is a version of the classic 3D shoot&apos;em&apos;up game Doom, originally written by id Software.[CR][CR]See the documentation for a list of required files.</description>
