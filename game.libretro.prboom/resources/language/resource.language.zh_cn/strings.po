@@ -25,10 +25,6 @@ msgctxt "Addon Description"
 msgid "PrBoom, short for \"Professor Boom\", is a version of the classic 3D shoot'em'up game Doom, originally written by id Software.[CR][CR]See the documentation for a list of required files."
 msgstr "PrBoom，是“Professor Boom”的缩写，是最初由 id Software 开发的经典 3D 射击游戏 Doom 的一个版本。[CR][CR]有关所需文件的列表，请参阅文档。"
 
-msgctxt "#30000"
-msgid "Settings"
-msgstr "设置"
-
 msgctxt "#30001"
 msgid "Internal resolution (Restart Required)"
 msgstr "内部分辨率（需重启）"
@@ -48,3 +44,7 @@ msgstr "隆隆声效应"
 msgctxt "#30005"
 msgid "Analog Deadzone (Percent)"
 msgstr "模拟死区（百分比）"
+
+#~ msgctxt "#30000"
+#~ msgid "Settings"
+#~ msgstr "设置"
