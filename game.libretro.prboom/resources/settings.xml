@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <settings>
-	<category label="30000">
+	<category label="128">
 		<setting label="30001" type="select" id="prboom-resolution" values="320x200|640x400|960x600|1280x800|1600x1000|1920x1200|2240x1400|2560x1600" default="320x200"/>
 		<setting label="30002" type="select" id="prboom-mouse_on" values="disabled|enabled" default="disabled"/>
 		<setting label="30003" type="select" id="prboom-find_recursive_on" values="enabled|disabled" default="enabled"/>
