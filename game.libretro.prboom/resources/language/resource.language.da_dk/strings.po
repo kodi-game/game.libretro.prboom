@@ -45,6 +45,18 @@ msgctxt "#30005"
 msgid "Analog Deadzone (Percent)"
 msgstr "Analog dødzone (procent)"
 
+msgctxt "#30006"
+msgid "Wall Bullet Decals"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Compatibility Level (Restart Required)"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Player Class (Hexen, Restart Required)"
+msgstr ""
+
 #~ msgctxt "#30000"
 #~ msgid "Settings"
 #~ msgstr "Indstillinger"
