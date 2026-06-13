@@ -3,8 +3,11 @@
 	<category label="128">
 		<setting label="30001" type="select" id="prboom-resolution" values="320x200|640x400|960x600|1280x800|1600x1000|1920x1200|2240x1400|2560x1600" default="320x200"/>
 		<setting label="30002" type="select" id="prboom-mouse_on" values="disabled|enabled" default="disabled"/>
+		<setting label="30006" type="select" id="prboom-wall_decals" values="disabled|enabled" default="disabled"/>
 		<setting label="30003" type="select" id="prboom-find_recursive_on" values="enabled|disabled" default="enabled"/>
 		<setting label="30004" type="select" id="prboom-rumble" values="disabled|enabled" default="disabled"/>
 		<setting label="30005" type="select" id="prboom-analog_deadzone" values="15|0|5|10|20|25|30" default="15"/>
+		<setting label="30007" type="select" id="prboom-complevel" values="-1|4|5|9|11|17|18" default="-1"/>
+		<setting label="30008" type="select" id="prboom-class" values="fighter|cleric|mage" default="fighter"/>
 	</category>
 </settings>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.prboom"
 		name="Doom (PrBoom)"
-		version="2.5.0.58"
+		version="2.5.0.59"
 		provider-name="Florian Schulze">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
@@ -12,7 +12,7 @@
 	<extension point="kodi.gameclient"
 			library_@PLATFORM@="@LIBRARY_FILENAME@">
 		<platforms></platforms>
-		<extensions>wad|iwad|pwad|lmp|m3u</extensions>
+		<extensions>wad|iwad|pwad|lmp|m3u|pk3|ipk3|zip</extensions>
 		<supports_vfs>false</supports_vfs>
 		<supports_standalone>false</supports_standalone>
 		<supports_disc_control>false</supports_disc_control>
