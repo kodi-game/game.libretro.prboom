@@ -53,9 +53,33 @@ msgctxt "#30007"
 msgid "Compatibility Level (Restart Required)"
 msgstr "兼容等级（需重启）"
 
-msgctxt "#30008"
-msgid "Player Class (Hexen, Restart Required)"
-msgstr "角色职业（Hexen，需重启）"
+msgctxt "#30009"
+msgid "Threaded Rendering"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Color Format (Restart Required)"
+msgstr ""
+
+msgctxt "#30011"
+msgid "HDR Emissive Boost"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Dynamic Light Wall Falloff"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Memory-Map WAD Files (Restart Required)"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Sound Samplerate (Hint)"
+msgstr ""
+
+#~ msgctxt "#30008"
+#~ msgid "Player Class (Hexen, Restart Required)"
+#~ msgstr "角色职业（Hexen，需重启）"
 
 #~ msgctxt "#30000"
 #~ msgid "Settings"
