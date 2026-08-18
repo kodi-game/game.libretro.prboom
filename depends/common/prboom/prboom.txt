@@ -1,1 +1,1 @@
-prboom https://github.com/libretro/libretro-prboom/archive/b4046cef3641d6bb28c0394915bfcc732cc49652.tar.gz
+prboom https://github.com/libretro/libretro-prboom/archive/c180d47a5f9f1b5f74be18bf74deb5eccf97057e.tar.gz
