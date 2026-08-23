@@ -39,8 +39,8 @@
 					<default>16bits</default>
 					<constraints>
 						<options>
-							<option>16bits</option>
-							<option>24bits (truecolor)</option>
+							<option label="30051">16bits</option>
+							<option label="30052">24bits (truecolor)</option>
 							<option label="30022">30bits (HDR)</option>
 						</options>
 					</constraints>
