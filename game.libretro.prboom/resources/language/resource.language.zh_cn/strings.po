@@ -221,6 +221,14 @@ msgctxt "#30050"
 msgid "96 kHz"
 msgstr ""
 
+msgctxt "#30051"
+msgid "16bits"
+msgstr ""
+
+msgctxt "#30052"
+msgid "24bits (truecolor)"
+msgstr ""
+
 #~ msgctxt "#30008"
 #~ msgid "Player Class (Hexen, Restart Required)"
 #~ msgstr "角色职业（Hexen，需重启）"
