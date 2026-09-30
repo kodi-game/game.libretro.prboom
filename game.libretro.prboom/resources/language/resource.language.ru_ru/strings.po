@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: game.libretro.prboom\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: 2017-02-04 09:56i\n"
-"PO-Revision-Date: 2026-09-15 19:33+0000\n"
+"PO-Revision-Date: 2026-09-30 17:16+0000\n"
 "Last-Translator: Andrei Stepanov <adem4ik@gmail.com>\n"
 "Language-Team: Russian <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-prboom/ru_ru/>\n"
 "Language: ru_ru\n"
@@ -79,115 +79,115 @@ msgstr "Частота дискретизации звука (подсказка
 
 msgctxt "#30015"
 msgid "Configure the resolution."
-msgstr ""
+msgstr "Настроить разрешение."
 
 msgctxt "#30016"
 msgid "Fill walls and floors/ceilings across several CPU threads. Scene traversal stays single-threaded and only the pixel filling is split, so the image is identical to the single-threaded renderer -- unlike the screenspace split used by other ports, this cannot split or drop a sprite at a thread boundary. Filling is the bulk of the frame at high internal resolutions, so the benefit grows with resolution; at 320x200 there is little to gain. 'Auto' uses up to 4 threads, which measured fastest and steadiest on a 16-core test system; higher counts spend more on handing out work than they save and vary more between runs. 8 is selectable if it suits your CPU."
-msgstr ""
+msgstr "Заполнять стены и полы/потолки на нескольких потоках ЦП. Обход сцены остаётся однопоточным, и разделяется только заполнение пикселей, поэтому изображение идентично однопоточному рендереру — в отличие от разделения по экранному пространству, используемого другими портами, это не может разделить или потерять спрайт на границе потока. Заполнение составляет основную часть кадра при высоких внутренних разрешениях, поэтому выгода растёт с разрешением; при 320x200 выигрыш невелик. «Авто» использует до 4 потоков, что показало наибольшую скорость и стабильность на 16-ядерной тестовой системе; большее количество тратит больше на выдачу работы, чем экономит, и сильнее варьируется между запусками. Можно выбрать 8, если это подходит вашему ЦП."
 
 msgctxt "#30017"
 msgid "Off (single-threaded)"
-msgstr ""
+msgstr "Отключено (однопоточный)"
 
 msgctxt "#30018"
 msgid "2 threads"
-msgstr ""
+msgstr "2 потока"
 
 msgctxt "#30019"
 msgid "4 threads"
-msgstr ""
+msgstr "4 потока"
 
 msgctxt "#30020"
 msgid "8 threads"
-msgstr ""
+msgstr "8 потоков"
 
 msgctxt "#30021"
 msgid "Output colour depth. '16bits' is the classic RGB565 renderer. '24bits' renders in full 8-bit-per-channel truecolor, which removes the banding the 16-bit light ramp introduces in distance shading and smooth gradients. '30bits' outputs true HDR10 -- PQ-encoded Rec.2020 at 10 bits per channel, carrying absolute luminance -- so emissive content can be rendered brighter than SDR white on an HDR display. It requires a frontend that presents HDR10 natively; otherwise the core falls back to 24bits automatically."
-msgstr ""
+msgstr "Глубина цвета вывода. «16 бит» — классический рендерер RGB565. «24 бита» отрисовывает в полном истинном цвете 8 бит на канал, что устраняет полосность, вносимую 16-битной шкалой света в затенении по расстоянию и плавных градиентах. «30 бит» выводит настоящий HDR10 — PQ-кодированный Rec.2020 при 10 битах на канал, несущий абсолютную яркость — так что излучающее содержимое можно отрисовать ярче SDR-белого на HDR-дисплее. Требуется фронтенд, который нативно представляет HDR10; иначе ядро автоматически возвращается к 24 битам."
 
 msgctxt "#30022"
 msgid "30bits (HDR10)"
-msgstr ""
+msgstr "30 бит (HDR10)"
 
 msgctxt "#30023"
 msgid "How far above SDR white self-illuminated content (muzzle flashes, plasma, rockets, explosions, powerups and brightmapped texels) is rendered when the Color Format is 30bits. Higher values glow harder. Only affects HDR10 output; ignored in 16- and 24-bit modes."
-msgstr ""
+msgstr "Насколько выше SDR-белого отрисовывается самосветящееся содержимое (вспышки выстрелов, плазма, ракеты, взрывы, бонусы и тексели с картой яркости), когда формат цвета — 30 бит. Более высокие значения светятся сильнее. Влияет только на вывод HDR10; игнорируется в 16- и 24-битных режимах."
 
 msgctxt "#30024"
 msgid "Off"
-msgstr ""
+msgstr "Отключено"
 
 msgctxt "#30025"
 msgid "2x"
-msgstr ""
+msgstr "2x"
 
 msgctxt "#30026"
 msgid "4x"
-msgstr ""
+msgstr "4x"
 
 msgctxt "#30027"
 msgid "8x"
-msgstr ""
+msgstr "8x"
 
 msgctxt "#30028"
 msgid "Allows you to use mouse inputs even when User 1's device type isn't set to 'RetroKeyboard/Mouse'."
-msgstr ""
+msgstr "Позволяет использовать ввод мыши, даже когда тип устройства пользователя 1 не установлен как «RetroKeyboard/Mouse»."
 
 msgctxt "#30029"
 msgid "Stamp scuff marks on walls where hitscan shots land. Off by default, matching ZDoom mods that do not request bullet decals; enable for the classic wall-chip marks."
-msgstr ""
+msgstr "Оставлять следы попаданий на стенах в местах попадания хитскан-выстрелов. По умолчанию отключено, в соответствии с модами ZDoom, которые не запрашивают декали от пуль; включите для классических следов от пуль на стенах."
 
 msgctxt "#30030"
 msgid "Give GLDEFS point lights a vertical light pool on walls (brightest at the light's height, fading up and down) instead of a single level per wall column. Off by default; the per-band shading is noticeably heavier on tall, close, heavily-lit walls."
-msgstr ""
+msgstr "Давать точечным источникам света GLDEFS вертикальный световой ореол на стенах (ярче всего на высоте источника, затухающий вверх и вниз) вместо единого уровня на столбец стены. По умолчанию отключено; затенение по полосам заметно тяжелее на высоких, близких, сильно освещённых стенах."
 
 msgctxt "#30031"
 msgid "Scans parent folders for IWADs. NOTE: You need to disable this if you want to run SIGIL."
-msgstr ""
+msgstr "Сканирует родительские папки на наличие IWAD. ПРИМЕЧАНИЕ: это нужно отключить, если вы хотите запустить SIGIL."
 
 msgctxt "#30032"
 msgid "Enables haptic feedback when using a rumble-equipped gamepad."
-msgstr ""
+msgstr "Включает тактильную обратную связь при использовании геймпада с вибрацией."
 
 msgctxt "#30033"
 msgid "Load WAD data by memory-mapping the file instead of reading it fully into RAM. Lowers memory use and speeds up loading of large WADs, since only the lumps actually used are paged in. Falls back to a normal read for archives, if mapping fails, or on builds without memory-mapping support. Leave disabled to perform all WAD file I/O up front at load time."
-msgstr ""
+msgstr "Загружать данные WAD путём отображения файла в память вместо полного чтения в ОЗУ. Снижает использование памяти и ускоряет загрузку больших WAD, так как подгружаются только фактически используемые блоки. Возвращается к обычному чтению для архивов, если отображение не удаётся, или в сборках без поддержки отображения в память. Оставьте отключённым, чтобы выполнять весь ввод-вывод файла WAD заранее во время загрузки."
 
 msgctxt "#30034"
 msgid "Sets the deadzone of the gamepad analog sticks when the input device type is set to 'Gamepad Modern'."
-msgstr ""
+msgstr "Задаёт мёртвую зону аналоговых стиков геймпада, когда тип устройства ввода установлен как «Современный геймпад»."
 
 msgctxt "#30035"
 msgid "Forces a demo-compatibility level. 'Default' uses the engine's automatic choice. Set 'MBF21' to play MBF21 WADs that require complevel 21."
-msgstr ""
+msgstr "Принудительно задаёт уровень совместимости демо. «По умолчанию» использует автоматический выбор движка. Установите «MBF21», чтобы играть в WAD MBF21, требующие complevel 21."
 
 msgctxt "#30036"
 msgid "Default (Auto)"
-msgstr ""
+msgstr "По умолчанию (авто)"
 
 msgctxt "#30037"
 msgid "Ultimate Doom"
-msgstr ""
+msgstr "Ultimate Doom"
 
 msgctxt "#30038"
 msgid "Final Doom"
-msgstr ""
+msgstr "Final Doom"
 
 msgctxt "#30039"
 msgid "Boom"
-msgstr ""
+msgstr "Boom"
 
 msgctxt "#30040"
 msgid "MBF"
-msgstr ""
+msgstr "MBF"
 
 msgctxt "#30041"
 msgid "PrBoom latest"
-msgstr ""
+msgstr "PrBoom последний"
 
 msgctxt "#30042"
 msgid "MBF21"
-msgstr ""
+msgstr "MBF21"
 
 msgctxt "#30043"
 msgid "Audio"
@@ -195,39 +195,39 @@ msgstr "Аудио"
 
 msgctxt "#30044"
 msgid "Configure audio output, including the synthesis/output sample rate."
-msgstr ""
+msgstr "Настройка звукового вывода, включая частоту синтеза/вывода дискретизации."
 
 msgctxt "#30045"
 msgid "Audio output rate. prboom synthesizes MIDI and tracker music in real time, so it has no fixed native rate and can render directly at whichever rate you pick. Higher rates lower latency, push aliasing above the audible range, avoid the frontend resampler's low-pass smearing, and give the sound-effect and music-stream resamplers finer time resolution. 'Auto' queries the frontend's target rate and snaps to the nearest supported value."
-msgstr ""
+msgstr "Частота звукового вывода. prboom синтезирует MIDI и трекерную музыку в реальном времени, поэтому не имеет фиксированной родной частоты и может отрисовывать непосредственно на выбранной вами частоте. Более высокие частоты снижают задержку, выталкивают алиасинг выше слышимого диапазона, избегают низкочастотного размазывания передискретизатора фронтенда и дают передискретизаторам звуковых эффектов и музыкального потока более тонкое временное разрешение. «Авто» запрашивает целевую частоту фронтенда и привязывается к ближайшему поддерживаемому значению."
 
 msgctxt "#30046"
 msgid "Auto"
-msgstr ""
+msgstr "Авто"
 
 msgctxt "#30047"
 msgid "32 kHz"
-msgstr ""
+msgstr "32 кГц"
 
 msgctxt "#30048"
 msgid "44 kHz"
-msgstr ""
+msgstr "44 кГц"
 
 msgctxt "#30049"
 msgid "48 kHz"
-msgstr ""
+msgstr "48 кГц"
 
 msgctxt "#30050"
 msgid "96 kHz"
-msgstr ""
+msgstr "96 кГц"
 
 msgctxt "#30051"
 msgid "16bits"
-msgstr ""
+msgstr "16 бит"
 
 msgctxt "#30052"
 msgid "24bits (truecolor)"
-msgstr ""
+msgstr "24 бита (истинный цвет)"
 
 #~ msgctxt "#30000"
 #~ msgid "Settings"
