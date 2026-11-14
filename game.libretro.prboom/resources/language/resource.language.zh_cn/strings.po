@@ -276,3 +276,11 @@ msgstr ""
 #~ msgctxt "#30000"
 #~ msgid "Settings"
 #~ msgstr "设置"
+
+#~ msgctxt "#30015"
+#~ msgid "Configure the resolution."
+#~ msgstr ""
+
+#~ msgctxt "#30023"
+#~ msgid "How far above SDR white self-illuminated content (muzzle flashes, plasma, rockets, explosions, powerups and brightmapped texels) is rendered when the Color Format is 30bits. Higher values glow harder. Only affects HDR10 output; ignored in 16- and 24-bit modes."
+#~ msgstr ""
