@@ -27,7 +27,7 @@ msgstr ""
 
 msgctxt "#30001"
 msgid "Internal resolution (Restart Required)"
-msgstr ""
+msgstr "Εσωτερική ανάλυση (Απαιτείται Επανεκκίνηση)"
 
 msgctxt "#30002"
 msgid "Mouse Active When Using Gamepad"
@@ -77,10 +77,6 @@ msgctxt "#30014"
 msgid "Sound Samplerate (Hint)"
 msgstr ""
 
-msgctxt "#30015"
-msgid "Configure the resolution."
-msgstr ""
-
 msgctxt "#30016"
 msgid "Fill walls and floors/ceilings across several CPU threads. Scene traversal stays single-threaded and only the pixel filling is split, so the image is identical to the single-threaded renderer -- unlike the screenspace split used by other ports, this cannot split or drop a sprite at a thread boundary. Filling is the bulk of the frame at high internal resolutions, so the benefit grows with resolution; at 320x200 there is little to gain. 'Auto' uses up to 4 threads, which measured fastest and steadiest on a 16-core test system; higher counts spend more on handing out work than they save and vary more between runs. 8 is selectable if it suits your CPU."
 msgstr ""
@@ -107,10 +103,6 @@ msgstr ""
 
 msgctxt "#30022"
 msgid "30bits (HDR10)"
-msgstr ""
-
-msgctxt "#30023"
-msgid "How far above SDR white self-illuminated content (muzzle flashes, plasma, rockets, explosions, powerups and brightmapped texels) is rendered when the Color Format is 30bits. Higher values glow harder. Only affects HDR10 output; ignored in 16- and 24-bit modes."
 msgstr ""
 
 msgctxt "#30024"
@@ -228,3 +220,59 @@ msgstr ""
 msgctxt "#30052"
 msgid "24bits (truecolor)"
 msgstr ""
+
+msgctxt "#30053"
+msgid "Configure the resolution. 'Auto' fills the display at its native size when the frontend reports it, and uses 320x200 when it does not."
+msgstr ""
+
+msgctxt "#30054"
+msgid "Auto (display size)"
+msgstr ""
+
+msgctxt "#30055"
+msgid "320x200"
+msgstr ""
+
+msgctxt "#30056"
+msgid "640x400"
+msgstr ""
+
+msgctxt "#30057"
+msgid "960x600"
+msgstr ""
+
+msgctxt "#30058"
+msgid "1280x800"
+msgstr ""
+
+msgctxt "#30059"
+msgid "1600x1000"
+msgstr ""
+
+msgctxt "#30060"
+msgid "1920x1200"
+msgstr ""
+
+msgctxt "#30061"
+msgid "2240x1400"
+msgstr ""
+
+msgctxt "#30062"
+msgid "2560x1600"
+msgstr ""
+
+msgctxt "#30063"
+msgid "How far above SDR white self-illuminated content (muzzle flashes, plasma, rockets, explosions, powerups and brightmapped texels) is rendered when the Color Format is 30bits. Higher values glow harder; highlights roll off smoothly toward the frontend's HDR peak instead of clipping. 'Auto' sets the boost from paper white and the peak so the brightest effects land just under the peak. Only affects HDR10 output; ignored in 16- and 24-bit modes."
+msgstr ""
+
+msgctxt "#30064"
+msgid "Auto (display peak)"
+msgstr ""
+
+#~ msgctxt "#30015"
+#~ msgid "Configure the resolution."
+#~ msgstr ""
+
+#~ msgctxt "#30023"
+#~ msgid "How far above SDR white self-illuminated content (muzzle flashes, plasma, rockets, explosions, powerups and brightmapped texels) is rendered when the Color Format is 30bits. Higher values glow harder. Only affects HDR10 output; ignored in 16- and 24-bit modes."
+#~ msgstr ""

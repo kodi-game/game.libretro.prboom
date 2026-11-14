@@ -77,10 +77,6 @@ msgctxt "#30014"
 msgid "Sound Samplerate (Hint)"
 msgstr "Vzorkovací frekvence zvuku (doporučená)"
 
-msgctxt "#30015"
-msgid "Configure the resolution."
-msgstr "Nastavit rozlišení."
-
 msgctxt "#30016"
 msgid "Fill walls and floors/ceilings across several CPU threads. Scene traversal stays single-threaded and only the pixel filling is split, so the image is identical to the single-threaded renderer -- unlike the screenspace split used by other ports, this cannot split or drop a sprite at a thread boundary. Filling is the bulk of the frame at high internal resolutions, so the benefit grows with resolution; at 320x200 there is little to gain. 'Auto' uses up to 4 threads, which measured fastest and steadiest on a 16-core test system; higher counts spend more on handing out work than they save and vary more between runs. 8 is selectable if it suits your CPU."
 msgstr "Vykreslovat stěny a podlahy/stropy napříč několika vlákny CPU. Procházení scény zůstává jednovláknové a rozděluje se pouze vyplňování pixelů, takže obraz je shodný s jednovláknovým vykreslovačem – na rozdíl od rozdělení obrazového prostoru používaného jinými porty toto nemůže rozdělit sprite ani jej zahodit na hranici vlákna. Vyplňování představuje při vysokých interních rozlišeních většinu snímku, takže přínos roste s rozlišením; při 320x200 je přínos malý. „Automaticky“ používá až 4 vlákna, což bylo na 16jádrovém testovacím systému změřeno jako nejrychlejší a nejstabilnější; vyšší počty spotřebují rozdělováním práce více času, než kolik ušetří, a mezi běhy více kolísají. Hodnota 8 je volitelná, pokud vyhovuje vašemu CPU."
@@ -108,10 +104,6 @@ msgstr "Výstupní barevná hloubka. „16bits“ je klasický vykreslovač RGB5
 msgctxt "#30022"
 msgid "30bits (HDR10)"
 msgstr "30bits (HDR10)"
-
-msgctxt "#30023"
-msgid "How far above SDR white self-illuminated content (muzzle flashes, plasma, rockets, explosions, powerups and brightmapped texels) is rendered when the Color Format is 30bits. Higher values glow harder. Only affects HDR10 output; ignored in 16- and 24-bit modes."
-msgstr "O kolik nad úroveň bílé v SDR se vykresluje obsah s vlastním vyzařováním (záblesky u ústí hlavně, plazma, rakety, výbuchy, power-upy a texely s brightmapou) při nastavení formátu barev na 30bits. Vyšší hodnoty vytvářejí výraznější záři. Ovlivňuje pouze výstup HDR10; v 16- a 24bitových režimech se ignoruje."
 
 msgctxt "#30024"
 msgid "Off"
@@ -228,6 +220,14 @@ msgstr "16 bitů"
 msgctxt "#30052"
 msgid "24bits (truecolor)"
 msgstr "24 bitů (truecolor)"
+
+#~ msgctxt "#30015"
+#~ msgid "Configure the resolution."
+#~ msgstr "Nastavit rozlišení."
+
+#~ msgctxt "#30023"
+#~ msgid "How far above SDR white self-illuminated content (muzzle flashes, plasma, rockets, explosions, powerups and brightmapped texels) is rendered when the Color Format is 30bits. Higher values glow harder. Only affects HDR10 output; ignored in 16- and 24-bit modes."
+#~ msgstr "O kolik nad úroveň bílé v SDR se vykresluje obsah s vlastním vyzařováním (záblesky u ústí hlavně, plazma, rakety, výbuchy, power-upy a texely s brightmapou) při nastavení formátu barev na 30bits. Vyšší hodnoty vytvářejí výraznější záři. Ovlivňuje pouze výstup HDR10; v 16- a 24bitových režimech se ignoruje."
 
 #~ msgctxt "#30008"
 #~ msgid "Player Class (Hexen, Restart Required)"

@@ -11,12 +11,13 @@
 	</requires>
 	<extension point="kodi.gameclient"
 			library_@PLATFORM@="@LIBRARY_FILENAME@">
-		<platforms></platforms>
+		<platforms>Doom</platforms>
 		<extensions>wad|iwad|pwad|lmp|m3u|pk3|ipk3|zip</extensions>
 		<supports_vfs>false</supports_vfs>
 		<supports_standalone>false</supports_standalone>
 		<supports_disc_control>false</supports_disc_control>
-		<requires_opengl>false</requires_opengl>
+		<libretro_core>prboom_libretro</libretro_core>
+		<savestate_features>basic</savestate_features>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<license>GPLv2</license>

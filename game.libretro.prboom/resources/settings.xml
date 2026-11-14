@@ -3,19 +3,20 @@
 	<section id="game.libretro.prboom">
 		<category id="general" label="128">
 			<group id="1">
-				<setting id="prboom-resolution" type="string" label="30001" help="30015">
+				<setting id="prboom-resolution" type="string" label="30001" help="30053">
 					<level>0</level>
 					<default>320x200</default>
 					<constraints>
 						<options>
-							<option>320x200</option>
-							<option>640x400</option>
-							<option>960x600</option>
-							<option>1280x800</option>
-							<option>1600x1000</option>
-							<option>1920x1200</option>
-							<option>2240x1400</option>
-							<option>2560x1600</option>
+							<option label="30055">320x200</option>
+							<option label="30056">640x400</option>
+							<option label="30057">960x600</option>
+							<option label="30058">1280x800</option>
+							<option label="30059">1600x1000</option>
+							<option label="30060">1920x1200</option>
+							<option label="30061">2240x1400</option>
+							<option label="30062">2560x1600</option>
+							<option label="30054">auto</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -46,7 +47,7 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
-				<setting id="prboom-hdr_emissive" type="string" label="30011" help="30023">
+				<setting id="prboom-hdr_emissive" type="string" label="30011" help="30063">
 					<level>0</level>
 					<default>2x</default>
 					<constraints>
@@ -55,6 +56,7 @@
 							<option label="30025">2x</option>
 							<option label="30026">4x</option>
 							<option label="30027">8x</option>
+							<option label="30064">auto</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
